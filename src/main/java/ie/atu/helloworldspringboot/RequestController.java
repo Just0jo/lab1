@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class RequestController {
     @GetMapping("greet/{name}")
     public String storycuz(@PathVariable String name) {
-        return "Hello," + name;
+        return "Hello, " + name;
     }
     @GetMapping("/details")
     public String storycuz(@RequestParam String name , int age) {
