@@ -14,7 +14,7 @@ public class CalculatorController {
         if (operation == "subtract") {
             return new Solution(operation, numb1 - numb2);
         }
-        if (operation == "multiply") {
+        if (operation == "multiply"){
             return new Solution(operation, numb1 * numb2);
         }
         if (operation == "divide") {
